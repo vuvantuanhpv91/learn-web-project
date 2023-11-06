@@ -26,4 +26,8 @@
 - commandline / cli
 
 
-### 
+### Link room
+https://meet.google.com/xxn-zshs-djm
+
+vietthang49k1dhv@gmail.com
+
