@@ -48,6 +48,8 @@ cong nghe can tra cuu:
 - commandline / cli
 - backend
 - frontend
+- bug: loi phan mem
+- SEO: blog, ban hang
 
 
 ### Link room

@@ -1,11 +1,55 @@
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <style>
+        .container {
+            display: flex;
+            /* Sử dụng flexbox để xây dựng layout */
+        }
+
+        .column {
+            flex: 1;
+            /* Mỗi cột chiếm 1 phần bằng nhau của không gian hiển thị */
+            padding: 15px;
+            /* Thêm padding để tạo khoảng cách giữa các cột */
+            border: 1px solid #ddd;
+            /* Thêm đường viền để phân biệt các cột */
+        }
+    </style>
+    <title>Four Column Layout</title>
 </head>
+
 <body>
-    
+
+    <div class="container">
+        <div class="column">
+            <!-- Nội dung cột 1 -->
+            <h2>Column 1</h2>
+            <p>This is the content of column 1.</p>
+        </div>
+
+        <div class="column">
+            <!-- Nội dung cột 2 -->
+            <h2>Column 2</h2>
+            <p>This is the content of column 2.</p>
+        </div>
+
+        <div class="column">
+            <!-- Nội dung cột 3 -->
+            <h2>Column 3</h2>
+            <p>This is the content of column 3.</p>
+        </div>
+
+        <div class="column">
+            <!-- Nội dung cột 4 -->
+            <h2>Column 4</h2>
+            <p>This is the content of column 4.</p>
+        </div>
+    </div>
+
 </body>
+
 </html>
