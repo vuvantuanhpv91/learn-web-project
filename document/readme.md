@@ -57,7 +57,7 @@ muc tieu: tao duoc website dau tien cho rieng minh
 - frontend
 - bug: loi phan mem
 - SEO: blog, ban hang
-
+- Comment code: tạm ẩn đoạn code đi
 ***
 ### Link room
 https://meet.google.com/iun-unom-cnr

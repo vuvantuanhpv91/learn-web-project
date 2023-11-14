@@ -1,55 +1,53 @@
-<!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;
-            /* Sử dụng flexbox để xây dựng layout */
-        }
+    <title>Document</title>
 
-        .column {
-            flex: 1;
-            /* Mỗi cột chiếm 1 phần bằng nhau của không gian hiển thị */
-            padding: 15px;
-            /* Thêm padding để tạo khoảng cách giữa các cột */
-            border: 1px solid #ddd;
-            /* Thêm đường viền để phân biệt các cột */
+    <style>
+        body {
+            width: 100%;
+        }
+        div {
+            background-color: aqua;
+            color: yellow;
+        }
+        .container {
+            background-color: red;
+            display: flex;
+            height: 200px;
+        }
+        .container-2 {
+            background-color: red;
+            height: 200px;
+            position: absolute;
+        }
+        .box-2 {
+            display: inline;
+            position: absolute;
+            bottom: 40px;
+            right: 20px;
+        }
+        .box {
+            border: 2px solid red;
+            padding: 30px;
+            width: 100px;
         }
     </style>
-    <title>Four Column Layout</title>
 </head>
-
 <body>
-
+    <!--
     <div class="container">
-        <div class="column">
-            <!-- Nội dung cột 1 -->
-            <h2>Column 1</h2>
-            <p>This is the content of column 1.</p>
-        </div>
-
-        <div class="column">
-            <!-- Nội dung cột 2 -->
-            <h2>Column 2</h2>
-            <p>This is the content of column 2.</p>
-        </div>
-
-        <div class="column">
-            <!-- Nội dung cột 3 -->
-            <h2>Column 3</h2>
-            <p>This is the content of column 3.</p>
-        </div>
-
-        <div class="column">
-            <!-- Nội dung cột 4 -->
-            <h2>Column 4</h2>
-            <p>This is the content of column 4.</p>
-        </div>
+        <div class="box">cột 1</div>
+        <div class="box">cột 2</div>
+        <div class="box">cột 3</div>
+        <div class="box">cột 4</div>
+        <div class="box">cột 5</div>
     </div>
-
+-->
+    <div class="container-2">
+        <div class="box-2">box 2</div>
+    </div>
 </body>
-
 </html>
