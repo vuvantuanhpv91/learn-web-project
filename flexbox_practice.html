@@ -11,9 +11,9 @@
     <p>Đề bài: cho cấu trúc HTML gồm 3 box (box 1 -> box 3) đặt trong 1 container như dưới đây. Yêu cầu:</p>
     <h2>Sử dụng một số thuộc tính cơ bản</h2>
     <ol>
-        <li>làm cho container cao lên 600px</li>
+        <li>làm cho container cao lên 600px: gợi ý: sử dụng thuộc tính height</li>
         <li>làm cho container có nền background đỏ</li>
-        <li>làm cho tất cả các box con cao 200px</li>
+        <li>làm cho tất cả các box con cao 200px. gợi ý: tạo thêm class 'box' gán vào cái box con -> css cho class 'box'</li>
         <li>làm cho tất cả các box con rộng 200px</li>
         <li>làm cho tất cả các box con có nền xanh</li>
         <li>tô viền cho container màu vàng, viền dày 2px</li>
@@ -22,7 +22,7 @@
 
     <h2>Flexbox</h2>
     <ol>
-        <li>làm cho các box con xếp liên tiếp nhau theo hàng ngang</li>
+        <li>làm cho các box con xếp liên tiếp nhau theo hàng ngang: gợi ý dùng display flex</li>
         <li>làm cho các box con cách đều nhau</li>
         <li>làm cho 2 box ngoài cùng nằm sát mép ngoài của container</li>
         <li>làm cho các box con cách đều viền trên-dưới container </li>
@@ -36,15 +36,46 @@
         <li>làm cho container cách cả 4 phía trái phải trên dưới ra thêm 50px</li>
     </ol>
 
+    <h2>Image, background</h2>
+    <ol>
+        <li>thay box-1, box-2, box-3 bằng 3 ảnh bất kì, tự tìm, tải về folder images: thay 3 thẻ div thành 3 thẻ img</li>
+        <li>bo viền tròn hơn cho các box</li>
+        <li>có cách nào để hiển thị ảnh khác ngoài dùng thẻ img không?</li>
+    </ol>
+
+    <h2>Mở rộng hơn về class, cách tạo và dùng các ultility class</h2>
+    <ol>
+        <li>thay vì viết nhiều thuộc tính vào trong các class thì tách mỗi thuộc tính thành 1 class</li>
+        <li>add các class vừa tạo vào các thẻ để xây dựng giao diện mình muốn</li>
+        <li>thực hành: tách các thuộc tính (đã viết từ đầu đến giờ) thành các class nhỏ, mỗi class chứa 1 thuộc tính, 1 giá trị, và update lại các class trong html</li>
+    </ol>
     <hr>
 
     <!-- Thực hành -->
-    <style></style>
+    <style>
+        .container {
+            height: 600px;
+            background-color: red;
+            border: 2px solid yellow;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .boxzzz {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            border: 2px solid black;
+        }
+        .box2 {
+            background-color: black;
+        }
+    </style>
 
     <div class="container">
-        <div>box 1</div>
-        <div>box 2</div>
-        <div>box 3</div>
+        <div class="boxzzz">box 1</div>
+        <div class="boxzzz box2">box 2</div>
+        <div class="boxzzz">box 3</div>
     </div>
 
     <!-- Thực hành -->
