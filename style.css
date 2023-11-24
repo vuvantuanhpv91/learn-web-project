@@ -1,0 +1,75 @@
+.h-600 {
+    height: 600px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.background-red {
+    background-color: red;
+}
+
+.background-orange {
+    background-color: orange;
+}
+
+.border-yellow {
+    border: 2px solid yellow;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.margin-50 {
+    margin: 50px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.w-200 {
+    width: 200px;
+}
+
+.background-blue {
+    background-color: blue;
+}
+
+.border-black {
+    border: 2px solid black;
+}
+
+.padding-20 {
+    padding: 20px;
+}
+
+.border-round {
+    border-radius: 10px;
+}
+
+.background-center {
+    background-position: center;
+}
+
+.background-cover {
+    background-size: cover;
+}
+
+.box-1 {
+    background-image: url('images/tree-736885_1280.jpg');
+}
+
+.box-2 {
+    background-image: url('images/tree-736885_1280.jpg');
+}
+
+.box-3 {
+    background-image: url('images/tree-736885_1280.jpg');
+}

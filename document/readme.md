@@ -22,7 +22,7 @@
 ***
 ## Công nghệ
 - HTML
-- CSS
+- CSS: Framework: `tailwindCSS`, ultility class. Chọn 1 CSS framework để dùng trong công việc
 - Javascript
 
 ***
