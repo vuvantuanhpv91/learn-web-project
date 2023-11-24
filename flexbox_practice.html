@@ -4,6 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thực hành flexbox</title>
+    <style></style>
 </head>
 <body>
     <a href="./index.html">home</a>
@@ -38,6 +39,7 @@
 
     <h2>Image, background</h2>
     <ol>
+        <li>tạo 1 folder 'images' cạnh file flexbox_practice.html</li>
         <li>thay box-1, box-2, box-3 bằng 3 ảnh bất kì, tự tìm, tải về folder images: thay 3 thẻ div thành 3 thẻ img</li>
         <li>bo viền tròn hơn cho các box</li>
         <li>có cách nào để hiển thị ảnh khác ngoài dùng thẻ img không?</li>
@@ -48,6 +50,13 @@
         <li>thay vì viết nhiều thuộc tính vào trong các class thì tách mỗi thuộc tính thành 1 class</li>
         <li>add các class vừa tạo vào các thẻ để xây dựng giao diện mình muốn</li>
         <li>thực hành: tách các thuộc tính (đã viết từ đầu đến giờ) thành các class nhỏ, mỗi class chứa 1 thuộc tính, 1 giá trị, và update lại các class trong html</li>
+    </ol>
+
+    <h2>Sử dụng external stylesheet (viết css vào 1 file riêng)</h2>
+    <ol>
+        <li>sử dụng thẻ style: link css file</li>
+        <li>làm vậy có lợi ích gì</li>
+        <li>giới thiệu css framework</li>
     </ol>
     <hr>
 
@@ -60,12 +69,18 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            margin: 50px;
         }
         .boxzzz {
             height: 200px;
             width: 200px;
             background-color: blue;
             border: 2px solid black;
+            padding: 20px;
+            border-radius: 10px;
+            background-image: url('images/tree-736885_1280.jpg');
+            background-position: center;
+            background-size: cover;
         }
         .box2 {
             background-color: black;
@@ -74,8 +89,8 @@
 
     <div class="container">
         <div class="boxzzz">box 1</div>
-        <div class="boxzzz box2">box 2</div>
-        <div class="boxzzz">box 3</div>
+        <div class="boxzzz">box 1</div>
+        <div class="boxzzz">box 1</div>
     </div>
 
     <!-- Thực hành -->
